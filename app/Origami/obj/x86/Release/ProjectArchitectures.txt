@@ -1,0 +1,4 @@
+C:\Users\danil\OneDrive\Documentos\Holojam\HolographicAcademy-Holograms-101\Origami\app\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj;x86
+C:\Users\danil\OneDrive\Documentos\Holojam\HolographicAcademy-Holograms-101\Origami\app\GeneratedProjects\UWP\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj;x86
+C:\Users\danil\OneDrive\Documentos\Holojam\HolographicAcademy-Holograms-101\Origami\app\GeneratedProjects\UWP\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj;x86
+C:\Users\danil\OneDrive\Documentos\Holojam\HolographicAcademy-Holograms-101\Origami\app\Origami\Origami.csproj;x86
