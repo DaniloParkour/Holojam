@@ -7,6 +7,8 @@ public class EnemyBullet : MonoBehaviour {
     private Vector3 vel;
     private float timeToRemove = 0;
 
+    public int damage = 5;
+
 	// Use this for initialization
 	void Start () {
 
@@ -28,6 +30,13 @@ public class EnemyBullet : MonoBehaviour {
         timeToRemove = 7;
         transform.SetParent(null);
         //transform.localScale = new Vector3(2, 2, 2);
+    }
+
+    public void OnTriggerEnter(Collider col) {
+        if (col.CompareTag("Player"))
+            col.SendMessage("TakeDamage", damage);
+
+        //Destroy(gameObject);
     }
 
 }

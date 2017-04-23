@@ -31,7 +31,7 @@ public class GazeGestureManager : MonoBehaviour {
         //Eventos Mouse Click
         if (Input.GetMouseButtonUp(0)) {
             if (FocusedObject != null) {
-                FocusedObject.SendMessageUpwards("OnSelect");
+                FocusedObject.SendMessageUpwards("OnSelect", SendMessageOptions.DontRequireReceiver);
             }
         }
 
